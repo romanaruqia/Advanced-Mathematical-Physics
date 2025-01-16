@@ -1,0 +1,9 @@
+clear;clc;
+A=[1,2,3;4,5,6;3,5,7]
+function[eigenvalues]=qr_eigenvalues(A)
+    [Q,R]=qr(A);
+    A=R*Q;
+    eigenvalues=diag(A);
+end
+eigenvalues=qr_eigenvalues(A);
+disp("Eigenvalues",eigenvalues)
