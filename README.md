@@ -1,2 +1,2 @@
-# Scilab
-A list of various projects, from several branches of physics - ranging from Quantum Mechanics and Advanced Mathematical Physics, coded in Scilab
+# Advanced Mathematical Physics
+A list of various projects solving problems of Advanced Mathematical Physics, coded in Scilab
